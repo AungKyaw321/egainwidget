@@ -7,10 +7,10 @@ export default [
   },
   {
     id: 2,
-    text: "Choose an image similar to the issue:",
+    text: "Choose an image similar to the issue",
     type: "image-enum",
     options: ["/hardware.png", "/software.png"],
   },
   { id: 3, text: "How severe is the issue?", type: "number" },
-  { id: 4, text: "Describe the expected outcome:", type: "text" },
+  { id: 4, text: "Any additional information we should know", type: "text" },
 ];
